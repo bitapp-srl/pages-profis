@@ -651,8 +651,11 @@ section {
   font-size: 18px;
 }
 
-.services .title a {
-  color: #111;
+.services .title a:link,.services .title a:visited {
+color:#111;
+}
+.services .title a:hover {
+color:#7fa8de;
 }
 
 .services .description {
@@ -1498,6 +1501,7 @@ section {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
+  min-height:250px;
 }
 
 .contact .info-box i {
