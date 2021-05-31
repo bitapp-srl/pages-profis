@@ -27,6 +27,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: 'Nunito', sans-serif;
 }
 
+ul.profis {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.profis li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #294085; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -716,7 +729,7 @@ color:#7fa8de;
 }
 
 .services .icon-box-profis .icon i {
-  color: #7fa8de;
+  color: #bdd6f8;
 }
 
 .services .icon-box-profis:hover {
