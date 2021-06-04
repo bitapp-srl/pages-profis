@@ -40,6 +40,25 @@ ul.profis li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+	.float-right {
+	  display:block;
+	  margin:1.8em auto;
+	  padding:1.5em;
+	  border:1px solid #e7e7e7;
+	  background-color:#f3f8fa;
+	}
+
+
+@media (min-width: 768px) {
+	.float-right {
+	  float:right;
+	  margin:0 0 1.5em 1.5em;
+	}
+}
+
+
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
