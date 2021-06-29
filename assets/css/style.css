@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 ul.profis {
   list-style: none; /* Remove default bullets */
+  padding-left: 1em;
 }
 
 ul.profis li::before {
@@ -44,7 +45,7 @@ ul.profis li::before {
 	  display:block;
 	  margin:1.8em auto;
 	  padding:1.5em;
-	  border:1px solid #e7e7e7;
+	  border:0;
 	  background-color:#f3f8fa;
 	}
 
@@ -88,6 +89,32 @@ ul.profis li::before {
 }
 
 .back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.back-to-service {
+  position: static;
+  z-index: 99999;
+  background: #294085;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+.back-to-service i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+
+.back-to-service:hover {
+  background: #2f4998;
+  color: #fff;
+}
+
+.back-to-service.active {
   visibility: visible;
   opacity: 1;
 }
@@ -356,7 +383,7 @@ ul.profis li::before {
   left: 50%;
   top: 0;
   width: 130%;
-  height: 95%;
+  height: 88%;
   background: transparent url("../img/hero-bg.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0;
@@ -419,10 +446,10 @@ ul.profis li::before {
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 24px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 12px 32px;
+  padding: 6px 32px;
   border-radius: 50px;
   transition: 0.5s;
   line-height: 1;
@@ -648,6 +675,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 20px;
+  padding-top: 120px;
 }
 
 .services .icon-box {
@@ -754,6 +782,15 @@ color:#7fa8de;
 .services .icon-box-profis:hover {
   border-color: #7fa8de;
 }
+
+.services .icon-box-profis a:link, .services .icon-box-profis a:visited {
+   color: #444444;
+}
+
+.services .icon-box-profis a:hover {
+   color: #a6bcda;
+}
+
 
 /*--------------------------------------------------------------
 # Why Us
@@ -1851,6 +1888,7 @@ color:#7fa8de;
 
 .blog .entry-single {
   margin-bottom: 30px;
+  min-height: 280px;
 }
 
 .blog .blog-author {
@@ -2238,6 +2276,7 @@ color:#7fa8de;
   border-top: 1px solid #1f3167;
   border-bottom: 1px solid #1f3167;
   padding: 60px 0 30px 0;
+  margin-top: 6em;
 }
 
 #footer .footer-top .footer-info {
