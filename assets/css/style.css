@@ -14,14 +14,24 @@ body {
 }
 
 a {
-  color: #4fa6d5;
+  color: #3553b0;
   text-decoration: none;
 }
 
 a:hover {
-  color: #45beff;
+  color: #4164d4;
   text-decoration: none;
 }
+
+img.fluida {
+  max-width: 100%
+}
+
+
+
+.footer-top a, .copyright a {color: #cedafd;}
+.footer-top a:hover,.copyright a:hover {color: #ffffff;}
+
 
 h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: 'Nunito', sans-serif;
@@ -30,6 +40,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 ul.profis {
   list-style: none; /* Remove default bullets */
   padding-left: 1em;
+  line-height: 28px;
 }
 
 ul.profis li::before {
@@ -47,6 +58,7 @@ ul.profis li::before {
 	  padding:1.5em;
 	  border:0;
 	  background-color:#f3f8fa;
+	  border-bottom: 1px solid #d8e2e6;
 	}
 
 
@@ -127,7 +139,7 @@ ul.profis li::before {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: #294085;
+  background: #ffffff;
 }
 
 #header.header-transparent {
@@ -135,7 +147,7 @@ ul.profis li::before {
 }
 
 #header.header-scrolled {
-  background: rgba(41, 64, 133, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   height: 120px;
 }
 
@@ -193,7 +205,7 @@ ul.profis li::before {
   padding: 10px 0 10px 30px;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
-  color: #fff;
+  color: #444444;
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -205,7 +217,7 @@ ul.profis li::before {
 }
 
 .navbar a:hover, .navbar .active, .navbar li:hover > a {
-  color: #cedafd;
+  color: #3553b0;
 }
 
 .navbar .dropdown ul {
@@ -239,7 +251,7 @@ ul.profis li::before {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #cedafd;
+  color: #3553b0;
 }
 
 .navbar .dropdown:hover > ul {
@@ -274,12 +286,15 @@ ul.profis li::before {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #294084;
   font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
   transition: 0.5s;
+}
+.mobile-nav-toggle.bi-x {
+  color: #ffffff;
 }
 
 @media (max-width: 991px) {
@@ -324,11 +339,11 @@ ul.profis li::before {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #294085;
+  color: #444444;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #cedafd;
+  color: #666666;
 }
 
 .navbar-mobile .getstarted {
@@ -360,7 +375,7 @@ ul.profis li::before {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #cedafd;
+  color: #666666;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -632,6 +647,7 @@ section {
   background-color: #f3f8fa;
   min-height: 40px;
   margin-top: 120px;
+  border-bottom:1px solid #d8e2e6
 }
 
 .breadcrumbs h2 {
@@ -675,7 +691,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 20px;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .services .icon-box {
@@ -1575,10 +1591,10 @@ color:#7fa8de;
 
 .contact .info-box i {
   font-size: 32px;
-  color: #cedafd;
+  color: #3553b0;
   border-radius: 50%;
   padding: 8px;
-  border: 2px dotted #cedafd;
+  border: 2px dotted #3553b0;
 }
 
 .contact .info-box h3 {
@@ -1696,7 +1712,7 @@ color:#7fa8de;
 --------------------------------------------------------------*/
 .map {
   padding: 0;
-  margin-bottom: -6px;
+  margin-bottom: -7px;
 }
 
 .map iframe {
@@ -2277,6 +2293,9 @@ color:#7fa8de;
   border-bottom: 1px solid #1f3167;
   padding: 60px 0 30px 0;
   margin-top: 6em;
+}
+#footer .footer-top.contatti {
+  margin-top: 0;
 }
 
 #footer .footer-top .footer-info {
