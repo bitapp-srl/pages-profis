@@ -399,7 +399,7 @@ ul.profis li::before {
   top: 0;
   width: 130%;
   height: 88%;
-  background: transparent url("../img/hero-bg.jpg") center top no-repeat;
+  background: transparent url("../img/profis-bg5.jpg") center top no-repeat;
   z-index: 0;
   border-radius: 0;
   transform: translateX(-50%) rotate(0deg);
@@ -436,6 +436,7 @@ ul.profis li::before {
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
+  text-shadow: 1px 1px 3px #000000;
 }
 
 #hero p {
