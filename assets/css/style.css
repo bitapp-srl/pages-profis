@@ -1350,6 +1350,7 @@ color:#7fa8de;
 --------------------------------------------------------------*/
 .portfolio {
   padding-bottom: 60px;
+  padding-top:0;
 }
 
 .portfolio #portfolio-flters {
