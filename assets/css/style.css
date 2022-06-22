@@ -1792,6 +1792,7 @@ color:#7fa8de;
 
 .blog .entry .entry-content p {
   line-height: 28px;
+  text-align:justify;
 }
 
 .blog .entry .entry-content .read-more {
