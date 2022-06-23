@@ -530,6 +530,13 @@ ul.profis li::before {
   }
 }
 
+@media (max-width: 440px) {
+  #hero h2 {
+    font-size: 24px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Hero No Slider Section
 --------------------------------------------------------------*/
@@ -1575,6 +1582,15 @@ color:#7fa8de;
   line-height: 0;
   font-size: 18px;
 }
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+.glightbox-clean .gslide-title {text-align: center!important;}
+.glightbox-clean .gdesc-inner {background-color: #f5f5f5!important;}
+
+
+
 
 /*--------------------------------------------------------------
 # Contact
