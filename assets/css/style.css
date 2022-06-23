@@ -1586,8 +1586,8 @@ color:#7fa8de;
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
-.glightbox-clean .gslide-title {text-align: center!important;}
-.glightbox-clean .gdesc-inner {background-color: #f5f5f5!important;}
+.glightbox-clean .gslide-description {background-color: transparent!important;}
+.glightbox-clean .gslide-title {text-align: center!important;color:#FFFFFF!important}
 
 
 
