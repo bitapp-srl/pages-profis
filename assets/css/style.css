@@ -406,6 +406,21 @@ ul.profis li::before {
   transform: translateX(-50%) rotate(0deg);
 }
 
+@media (min-width: 1921px) {
+#hero::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 130%;
+  height: 88%;
+  background: transparent url("../img/profis-bg4K.jpg") center top no-repeat;
+  z-index: 0;
+  border-radius: 0;
+  transform: translateX(-50%) rotate(0deg);
+}
+}
+
 #hero::before {
   /*content: '';
   position: absolute;
@@ -2337,6 +2352,7 @@ color:#7fa8de;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   color: #fff;
+  text-align:center;
 }
 
 #footer .footer-top .social-links a {
@@ -2366,6 +2382,7 @@ color:#7fa8de;
   color: #cedafd;
   position: relative;
   padding-bottom: 12px;
+  text-align:center;
 }
 
 #footer .footer-top .footer-links {
@@ -2408,6 +2425,7 @@ color:#7fa8de;
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
+  text-align:center;
 }
 
 #footer .footer-top .footer-contact p {
