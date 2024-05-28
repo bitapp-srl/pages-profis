@@ -614,8 +614,23 @@ ul.profis li::before {
 }
 
 /*--------------------------------------------------------------
+# 24h
+--------------------------------------------------------------*/
+#h-24 {
+  position: relative;
+  top: -80px;
+  height: 0;
+}
+#h-24 img {
+  height:70px;
+  float:right;
+}
+
+
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+
 section {
   padding: 60px 0;
 }
@@ -2352,7 +2367,7 @@ color:#7fa8de;
   margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   color: #fff;
-  text-align:center;
+  text-align:left;
 }
 
 #footer .footer-top .social-links a {
@@ -2382,7 +2397,7 @@ color:#7fa8de;
   color: #cedafd;
   position: relative;
   padding-bottom: 12px;
-  text-align:center;
+  text-align:left;
 }
 
 #footer .footer-top .footer-links {
@@ -2425,15 +2440,15 @@ color:#7fa8de;
 
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
-  text-align:center;
+  text-align:left;
 }
 
 #footer .footer-top .footer-contact p {
-  line-height: 26px;
+  line-height: 24px;
 }
 
 #footer .copyright {
-  text-align: center;
+  text-align: left;
   padding-top: 30px;
 }
 
@@ -2446,4 +2461,17 @@ color:#7fa8de;
 
 #footer .credits a {
   color: #cedafd;
+}
+
+.bannerino {
+  width: 70%;
+  display: block;
+  margin: 0 auto 3em 0;
+}
+@media (max-width: 767px) {
+  .bannerino {
+    width: 100%;
+    display: block;
+    margin: 0 auto 2em auto;
+  }
 }
